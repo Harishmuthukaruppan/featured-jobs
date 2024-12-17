@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Featured Jobs</h1>
+        <br>
+        <br>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('recent')">Recent Jobs</button>
+            <button class="tab-btn" onclick="showTab('updated')">Updated Jobs</button>
+        </div>
+        <br>
+
+        <!-- Recent Jobs -->
+        <div class="jobs-container" id="recent-jobs">
+            <div class="job-card">
+                <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/job4.png" alt="">
+                <div class="job-info-left">
+                    <h2> Web Designer</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt location-icon"></i><strong>Location:</strong> London
+                    </div>   
+                </div>
+                <div class="job-info-right">
+                    <div><strong>Type:</strong> Full Time</div>
+                    <div><strong>Time:</strong> 3 weeks ago</div>
+                </div>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job-card">
+                <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/job3.png" alt="">
+                <div class="job-info-left">
+                    <h2>Java Developer</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt location-icon"></i><strong>Location:</strong> London
+                    </div>
+                </div>
+                <div class="job-info-right">
+                    <div><strong>Type:</strong> Full Time</div>
+                    <div><strong>Time:</strong> 3 weeks ago</div>
+                </div>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job-card">
+                <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/job2.png" alt="">
+                <div class="job-info-left">
+                    <h2>UI/UX designer</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt location-icon"></i><strong>Location:</strong> London
+                    </div>
+                </div>
+                <div class="job-info-right">
+                    <div><strong>Type:</strong> Full Time</div>
+                    <div><strong>Time:</strong> 3 weeks ago</div>
+                </div>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job-card">
+                <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/job1.png" alt="">
+                <div class="job-info-left">
+                    <h2>UI/UX designer</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt location-icon"></i><strong>Location:</strong> London
+                    </div>
+                </div>
+                <div class="job-info-right">
+                    <div><strong>Type:</strong> Full Time</div>
+                    <div><strong>Time:</strong> 3 weeks ago</div>
+                </div>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            
+            <!-- More job cards here... -->
+        </div>
+
+        <!-- Updated Jobs -->
+        <div class="jobs-container" id="updated-jobs" style="display: none;">
+            <div class="job-card">
+                <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/job1.png" alt="">
+                <div class="job-info-left">
+                    <h2>Social Media Manager</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt location-icon"></i><strong>Location:</strong> London
+                    </div>
+                </div>
+                <div class="job-info-right">
+                    <div><strong>Type:</strong> Part-time</div>
+                    <div><strong>Time:</strong> 2 weeks ago</div>
+                </div>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job-card">
+                <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/job2.png" alt="">
+                <div class="job-info-left">
+                    <h2>Social Media Manager</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt location-icon"></i><strong>Location:</strong> London
+                    </div>
+                </div>
+                <div class="job-info-right">
+                    <div><strong>Type:</strong> Part-time</div>
+                    <div><strong>Time:</strong> 2 weeks ago</div>
+                </div>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job-card">
+                <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/job3.png" alt="">
+                <div class="job-info-left">
+                    <h2>Social Media Manager</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt location-icon"></i><strong>Location:</strong> London
+                    </div>
+                </div>
+                <div class="job-info-right">
+                    <div><strong>Type:</strong> Part-time</div>
+                    <div><strong>Time:</strong> 2 weeks ago</div>
+                </div>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="job-card">
+                <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/job4.png" alt="">
+                <div class="job-info-left">
+                    <h2>Social Media Manager</h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt location-icon"></i><strong>Location:</strong> London
+                    </div>
+                </div>
+                <div class="job-info-right">
+                    <div><strong>Type:</strong> Part-time</div>
+                    <div><strong>Time:</strong> 2 weeks ago</div>
+                </div>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <!-- More job cards here... -->
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+   <div>
+    <section class="job-section">
+        <div class="job-content">
+            <h2>Looking for resources? Want to apply for a Job?</h2>
+            <p>
+                Phasellus aliquam sit amet justo eget sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur orci urna. In et augue ornare, tempor massa in, luctus sapien. 
+                Proin a diam et dui fermentum molestie vel id neque. Donec sed tempus enim, a congue risus. Pellentesque euismod massa a quam viverra interdum. Vivamus vitae euismod magna.
+            </p>
+            <a href="#" class="apply-btn">Apply Now</a>
+        </div>
+        <div class="job-image">
+            <img src="https://p.w3layouts.com/demosWTR/Freedom/25-04-2020/hr-crew-freedom-demo_Free/422566165/web/assets/images/b5.jpg" alt="Team Working">
+        </div>
+    </section>
+   </div>
+   <script src="script.js"></script>
+   
+</body>
+</html>
